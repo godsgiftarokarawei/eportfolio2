@@ -1,55 +1,139 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About — Godsgift Arokarawei</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <h1 class="brand"><a href="index.html">Godsgift Arokarawei</a></h1>
-      <nav class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="Projects/">Projects</a>
-      </nav>
-    </div>
-  </header>
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  <main class="wrap about-page">
-    <article>
-      <h2>About Me</h2>
-      <p>I'm <strong>Godsgift Arokarawei</strong>, a Computer Science student specializing in Software Engineering. I aim to become a full-stack engineer with a strong foundation in secure development practices, clean architecture, and practical experience building web and client/server applications.</p>
+/* Body and overall layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
 
-      <h3>Education & Focus</h3>
-      <p>Currently studying Computer Science with a specialization in Software Engineering. My coursework and projects focus on secure software development, real-time graphics (OpenGL), and building RESTful client/server systems.</p>
+/* Container for consistent width */
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
-      <h3>Technical Skills</h3>
-      <ul>
-        <li>Languages: Java, C++, Python, JavaScript</li>
-        <li>Web: HTML, CSS, REST APIs, Spring Boot</li>
-        <li>Databases: PostgreSQL, MongoDB</li>
-        <li>Tools: Git, Maven, Docker, VS Code</li>
-      </ul>
+/* Header styles */
+.site-header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
 
-      <h3>Selected Projects</h3>
-      <ol>
-        <li><strong>CS 305 — Secure Software Development</strong>: Implemented secure endpoints, added checksum verification, and configured HTTPS for a sample Spring Boot app.</li>
-        <li><strong>CS 330 — Computer Graphics</strong>: Built an OpenGL scene with textures, camera controls, and lighting.</li>
-        <li><strong>CS 340 — Client/Server Development</strong>: Developed a CRUD backend with database integration and a small frontend dashboard.</li>
-      </ol>
+.site-header .brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-      <h3>Contact</h3>
-      <p>Please replace this with your preferred contact method: email, LinkedIn, or GitHub.</p>
-    </article>
-  </main>
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© Godsgift Arokarawei</p>
-    </div>
-  </footer>
-</body>
-</html>
+.main-nav a:hover {
+  color: #ffcc00;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.hero-left {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.hero-left h2 {
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+.hero-left p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.hero-right {
+  flex: 1;
+  background-color: #e0e7ff;
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #004080;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00264d;
+}
+
+.btn.secondary {
+  background-color: #e0e7ff;
+  color: #004080;
+  border: 1px solid #004080;
+}
+
+.btn.secondary:hover {
+  background-color: #b3c7ff;
+  color: #00264d;
+}
+
+/* Lists */
+ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+}
+
+.site-footer a {
+  color: #004080;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
