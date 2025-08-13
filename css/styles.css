@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Godsgift Arokarawei</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand"><a href="index.html">Godsgift Arokarawei</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Projects/">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap about-page">
+    <article>
+      <h2>About Me</h2>
+      <p>I'm <strong>Godsgift Arokarawei</strong>, a Computer Science student specializing in Software Engineering. I aim to become a full-stack engineer with a strong foundation in secure development practices, clean architecture, and practical experience building web and client/server applications.</p>
+
+      <h3>Education & Focus</h3>
+      <p>Currently studying Computer Science with a specialization in Software Engineering. My coursework and projects focus on secure software development, real-time graphics (OpenGL), and building RESTful client/server systems.</p>
+
+      <h3>Technical Skills</h3>
+      <ul>
+        <li>Languages: Java, C++, Python, JavaScript</li>
+        <li>Web: HTML, CSS, REST APIs, Spring Boot</li>
+        <li>Databases: PostgreSQL, MongoDB</li>
+        <li>Tools: Git, Maven, Docker, VS Code</li>
+      </ul>
+
+      <h3>Selected Projects</h3>
+      <ol>
+        <li><strong>CS 305 — Secure Software Development</strong>: Implemented secure endpoints, added checksum verification, and configured HTTPS for a sample Spring Boot app.</li>
+        <li><strong>CS 330 — Computer Graphics</strong>: Built an OpenGL scene with textures, camera controls, and lighting.</li>
+        <li><strong>CS 340 — Client/Server Development</strong>: Developed a CRUD backend with database integration and a small frontend dashboard.</li>
+      </ol>
+
+      <h3>Contact</h3>
+      <p>Please replace this with your preferred contact method: email, LinkedIn, or GitHub.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© Godsgift Arokarawei</p>
+    </div>
+  </footer>
+</body>
+</html>

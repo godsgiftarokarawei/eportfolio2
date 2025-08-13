@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.2.xsd">
+
+    <suppress>
+        <notes><![CDATA[
+        file name: jackson-core-2.10.2.jar
+        ]]></notes>
+        <gav regex="true">^com\.fasterxml\.jackson\.core:jackson-core:.*$</gav>
+        <cve>CVE-2025-49128</cve>
+    </suppress>
+
+    <suppress>
+        <notes><![CDATA[
+        file name: jackson-databind-2.10.2.jar
+        ]]></notes>
+        <gav regex="true">^com\.fasterxml\.jackson\.core:jackson-databind:.*$</gav>
+        <cve>CVE-2020-25649</cve>
+    </suppress>
+
+    <suppress>
+        <notes><![CDATA[
+        file name: json-path-2.4.0.jar
+        ]]></notes>
+        <gav regex="true">^com\.jayway\.jsonpath:json-path:.*$</gav>
+        <cve>CVE-2023-51074</cve>
+    </suppress>
+
+</suppressions>
